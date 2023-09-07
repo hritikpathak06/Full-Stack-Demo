@@ -1,0 +1,71 @@
+.dashboard{
+    width: 100vw;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: absolute;
+}
+
+.dashboardContainer{
+    border-left: 1px solid black;
+    background-color: white;
+    padding: 3rem 0;
+}
+
+.dashboardContainer>h1{
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: auto;
+    padding: 3rem;
+    width: 50%;
+    text-align: center;
+}
+
+.dashboardSummary{
+    margin: 2rem 0;
+}
+
+.dashboardSummary > div{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.dashboardSummary > div > p{
+    background-color: rgba(0, 0, 255, 0.501);
+    color: white;
+    width: 100%;
+    margin: 0 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.dashboardSummaryBox2 > a{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 100%;
+    background-color: yellowgreen;
+    width: 10vmax;
+    height: 10vmax;
+    margin: 2rem;
+}
+
+.dashboardSummaryBox2 > a:first-child{
+    background-color: tomato;
+    color: white;
+}
+
+.dashboardSummaryBox2 > a:last-child{
+    background-color: rgba(0, 0, 0, 0.357);
+    color: white;
+}

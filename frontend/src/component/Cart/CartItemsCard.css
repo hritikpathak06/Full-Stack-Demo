@@ -1,0 +1,37 @@
+.cartItemCard{
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.cartItemCard > img{
+    width: 5vmax;
+}
+
+.cartItemCard > div{
+    display: flex;
+    margin: 0.3vmax 1vmax;
+    flex-direction: column;
+}
+
+.cartItemCard > div > a{
+    font: 400 0.9vmax;
+    font-weight: 400;
+    font-size: 0.9vmax;
+    color: black;
+    text-decoration: none;
+}
+
+.cartItemCard > div > span{
+    font-weight: 300;
+    font-size: 0.9vmax;
+    color: black;
+}
+
+.cartItemCard > div > p{
+    color: tomato;
+    font-weight: bolder;
+    cursor: pointer;
+}

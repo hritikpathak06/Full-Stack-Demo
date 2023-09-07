@@ -1,0 +1,129 @@
+.cartHeader{
+    background-color: tomato;
+    width: 90%;
+    box-sizing: border-box;
+    display: grid;
+    color: white;
+    margin: auto;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.cartHeader > p{
+    margin: 10px;
+}
+
+.cartHeader > p:last-child{
+    text-align: end;
+}
+
+.cartPage{
+    padding: 5vmax;
+}
+
+.cartContainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.cartInput{
+    display: flex;
+    height: 8vmax;
+    align-items: center;
+}
+
+.cartInput > button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.5vmax;
+    cursor: pointer;
+}
+
+.cartInput > input{
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 0.3vmax;
+    width: 4vmax;
+}
+
+.cartSubTotal{
+    color: black;
+    display: flex;
+    padding: 0.5;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8vmax;
+    font-weight: bolder;
+}
+
+.cartGrossProfit{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+
+}
+
+.cartGrossProfitBox{
+    border-top: 4px solid red;
+    box-sizing: border-box;
+    margin: 1vmax 4vmax;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vmax;
+    font-weight: bolder;
+    padding: 2vmax 0;
+}
+
+.checkoutBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkoutBtn > button{
+    background-color: tomato;
+    border-radius: 35px;
+    padding: 1.2vmax;
+    border: none;
+    outline: none;
+    margin: 1vmax 4vmax;
+    width: 50%;
+    color: white;
+    font-size: 1vmax;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.emptyCard{
+margin: auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 50vh;
+padding: 4vmax;
+
+}
+
+.emptyCard>svg{
+    color: tomato;
+    font-size: 5vmax;
+}
+
+.emptyCard>a{
+    text-decoration: none;
+    margin: 2vmax;
+    padding: 1vmax 4vmax;
+    border: 3px solid black;
+    background-color: chocolate;
+    color: white;
+    border-radius: 30px;
+}
+
+.emptyCard > p{
+    color: tomato;
+    font-size: 2vmax;
+    text-align: center;
+}

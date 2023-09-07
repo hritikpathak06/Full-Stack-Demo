@@ -1,0 +1,248 @@
+.productDetails{
+    display: flex;
+    background-color: white;
+}
+.carouselImage{
+    width: 30vmax;
+}
+
+.productDetails > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+}
+
+.productDetails > div:last-child{
+    align-items: flex-start;
+}
+
+.detailsBlock-1 > h2{
+    color: rgba(0, 0, 0, 0.614);
+    font-weight: bolder;
+    font-size: 1.7vmax;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detailsBlock-1 > p{
+  color: black;
+  font-weight: 300;
+  font-size: 1.2vmax;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detailsBlock-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 60%;
+}
+
+.detailsBlock-2 > span{
+    color: black;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.detailsBlock-3{
+    width: 70%;
+}
+
+.detailsBlock-3 > h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2vmax;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 1vmax;
+}
+
+.detailsBlock-3-1{
+  display: flex;
+  align-items: center;
+}
+
+.detailsBlock-3-1-1 > button{
+     border: none;
+     outline: none;
+     background-color: dark gray;
+     transition: 1s linear;
+     padding: 0.5vmax;
+}
+
+.detailsBlock-3-1-1>button:hover{
+    background-color: black;
+    color: white;
+}
+
+.detailsBlock-3-1-1 > input{
+    border: none;
+    outline: none;
+    width: 1.6vmax;
+    text-align: center;
+    color: grey;
+}
+
+.redColor{
+    color: red;
+}
+
+.greenColor{
+    color: green;
+}
+
+.detailsBlock-3-1 > button:last-child{
+    border: none;
+    cursor: pointer;
+    cursor: pointer;
+    background-color: tomato;
+    font-size: 1.2vmax;
+    font-weight: bolder;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 0.5vmax 2vmax;
+    margin: 1vmax;
+    border-radius: 50px;
+    animation: buttonAnimation 500ms reverse ease-in-out;
+    transition: 2s linear infinite;
+}
+
+.detailsBlock-3-1>button:last-child:hover{
+    background-color:chartreuse;
+}
+
+
+
+.detailsBlock-3 > p{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 1vmax 0;
+    margin: 1vmax 0;
+}
+
+.detailsBlock-4{
+    color:black;
+    text-decoration: blueviolet;
+    font-weight: 500;
+    font-size: 1.2vmax;
+    font-family: sans-serif;
+}
+
+.detailsBlock-4 > p{
+    color: grey;
+    font-weight: 200;
+    font-size: 1.1vmax;
+}
+
+.submitReview{
+    border: none;
+    cursor: pointer;
+    cursor: pointer;
+    background-color: tomato;
+    font-size: 1.2vmax;
+    font-weight: bolder;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 0.5vmax 2vmax;
+    margin: 1vmax;
+    border-radius: 50px;
+    animation: buttonAnimation 500ms reverse ease-in-out;
+    transition: 2s linear infinite;
+}
+
+.submitReview:hover{
+    background-color: brown;
+    color: white;
+    transform: scale(1.2);
+}
+
+.detailsBlock-3-1-1 > input{
+    width: 30%;
+}
+
+
+/* SET REVIEW DIALOG BOX */
+.submitDialog{
+    display: flex;
+    flex-direction: column;
+}
+
+.submitDialogTextArea{
+    border: 3px solid black;
+    margin: 1vmax 0;
+    outline: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+@keyframes buttonAnimation{
+    /* from{
+        transform: rotateZ(190deg);
+    } */
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+/* Review style */
+.reviewsHeading{
+    color: #000000;
+    font: 500 1.5vmax "Sans-serif";
+    text-align: center;
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.reviewCard{
+    flex: none;
+    box-shadow: 2px 2px 8px 6px rgba(0, 0, 0, 0.614);
+    border: 1px solid black;
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vmax;
+    margin: 1vmax;
+}
+
+.reviewCard > img{
+    width: 5vmax;
+}
+
+.reviewCard > p{
+    color: grey;
+    font: bolder 0.9vmax;
+    font-family: cursive;
+}
+
+.reviewCard > span{
+    color:brown;
+    font-weight: 400;
+    font-family: fantasy;
+    font-size: 0.7vmax;
+}
+
+.noReviews{
+    color: blue;
+    font-size: 1.6vmax;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1vmax;
+}
+
+.reviews{
+    display: flex;
+    overflow: auto;
+    margin-top: 3vmax;
+}

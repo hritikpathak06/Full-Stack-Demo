@@ -1,0 +1,32 @@
+.orderSuccess{
+    margin: auto;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vmax;
+}
+
+.orderSuccess > svg{
+    color: tomato;
+    font-size: 6vmax;
+}
+
+.orderSuccess > a{
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 1.5vmax;
+    margin-top: 2vmax;
+    padding: 1vmax 4vmax;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.orderSuccess > p{
+    color: blue;
+    margin-top: 2vmax;
+    font-size: 1.8vmax;
+}
